@@ -1,0 +1,22 @@
+{
+	"name" : "Pager Outline Fix",
+	"description" : "Fix the pager flash outline after U238",
+	"author" : "Shane",
+	"Contact" : "https://steamcommunity.com/id/Shane1230/",
+	"version" : "1.0",
+	"priority": 1,
+	"hooks": [
+		{ 
+			"hook_id" : "lib/units/contourext",
+			"script_path" : "contourext.lua"
+		}
+	],
+	"updates": [
+        		{
+		"identifier": "pof",
+		"host": {
+		"meta": "https://raw.githubusercontent.com/Shane1230/autoupdate/main/POF"
+	 	}
+	}
+	]
+}
